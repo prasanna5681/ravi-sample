@@ -3,7 +3,7 @@
     on: 
       push:
         branches:
-          - master
+          - workflow-test
         paths-ignore: 
           - '.github/**'
         types:
