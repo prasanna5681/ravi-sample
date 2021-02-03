@@ -1,8 +1,6 @@
 ---
     name: 1. Image build and push to ecr
-    on: 
-      push:
-        branches: [master]
+    on:
       pull_request:
         branches:
           - main
