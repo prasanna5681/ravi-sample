@@ -2,7 +2,7 @@ name: 2. helloworld2
 on:
   workflow_run:
     workflows: ["1. helloworld"]
-    branches: [hello-world]
+    branches: [master]
     types: 
       - completed
 
