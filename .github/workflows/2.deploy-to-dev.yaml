@@ -2,6 +2,7 @@ name: 2. Deploy to EKS Dev Cluster
 on:
   workflow_run:
     workflows: ["1. Image build and push to ecr "]
+    branches: [master]
 jobs:
   deploy:
     name: Deploy
