@@ -3,6 +3,8 @@ on:
   workflow_run:
     workflows: ["1. Image build and push to ecr"]
     branches: [master]
+    types:
+      - completed
 jobs:
   deploy:
     name: Deploy
