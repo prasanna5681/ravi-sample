@@ -3,9 +3,6 @@
     on: 
       push:
         branches: [workflow-test]
-        types:
-          - opened
-          - synchronize
     jobs:
       Build_and_push_image_to_ecr:
         runs-on: ubuntu-latest
