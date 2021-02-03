@@ -1,9 +1,9 @@
 ---
     name: 1. Image build and push to ecr 
     on: 
-      pull_request:
+      push:
         branches:
-          - main
+          - master
         paths-ignore: 
           - '.github/**'
         types:
