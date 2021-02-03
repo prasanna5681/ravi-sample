@@ -1,7 +1,7 @@
-name: 2.helloworld2
+name: 2. helloworld2
 on:
   workflow_run:
-    workflows: ["1. Image build and push to ecr "]
+    workflows: ["1. helloworld"]
 
 # This is a basic workflow to help you get started with Actions
 
