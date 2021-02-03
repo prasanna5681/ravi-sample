@@ -1,5 +1,5 @@
 ---
-    name: 1. Image build and push to ecr 
+    name: 1. Image build and push to ecr
     on: 
       push:
         branches: [ main ]
